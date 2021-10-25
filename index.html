@@ -76,14 +76,16 @@
 		.home__btn-page {
 			border-width: 2px;
 			width: 134px;
-			height: 110px;
+			height: 134px;
 			text-align: center;
 			flex-shrink: 0;
 			padding: 6px;
+			padding-top: 18px;
 			display: flex;
+  		justify-content: center;
 			flex-direction: column;
 			align-items: center;
-			border-radius: 0;
+			border-radius: 3px;
 		}
 
 		@media only screen and (max-width: 1200px) {
@@ -127,17 +129,17 @@
 
 		.home__h-player {
 			text-decoration: underline;
-			text-decoration-color: dodgerblue;
+			text-decoration-color: #2196F3;
 		}
 
 		.home__h-rule {
 			text-decoration: underline;
-			text-decoration-color: #33a5a5;
+			text-decoration-color: #8BC34A;
 		}
 
 		.home__h-dm {
 			text-decoration: underline;
-			text-decoration-color: darkviolet;
+			text-decoration-color: #EC407A;
 		}
 
 		.home__btn-player,
@@ -148,8 +150,9 @@
 		.night-mode .home__btn-player:hover,
 		.night-mode .home__btn-player:active,
 		.night-mode .home__btn-player:focus {
-			border-color: dodgerblue;
-			color: dodgerblue;
+			background-color: #2196F3;
+			border-color: #2196F3;
+			color: #fff;
 		}
 
 		.home__btn-rule,
@@ -160,8 +163,9 @@
 		.night-mode .home__btn-rule:hover,
 		.night-mode .home__btn-rule:active,
 		.night-mode .home__btn-rule:focus{
-			border-color: #33a5a5;
-			color: #33a5a5;
+			background-color: #8BC34A;
+			border-color: #8BC34A;
+			color: #fff;
 		}
 
 		.home__btn-dm,
@@ -172,8 +176,9 @@
 		.night-mode .home__btn-dm:hover,
 		.night-mode .home__btn-dm:active,
 		.night-mode .home__btn-dm:focus {
-			border-color: darkviolet;
-			color: darkviolet;
+			background-color: #EC407A;
+			border-color: #EC407A;
+			color: #fff;
 		}
 
 		.home__stripe {
@@ -463,7 +468,7 @@ Unearthed Arcana content can be accessed by cycling the &quot;All Sources&quot; 
 
 		<h3>FAQ</h3>
 		<p><b>Is there a wiki?</b> <a href="https://wiki.5e.tools/index.php/Main_Page" rel="noopener noreferrer">Here.</a> Contributions are welcome.</p>
-		<p><b>Is it free?</b> Yes! Additionally, you can download the source at <a href="https://get.5e.tools" rel="noopener noreferrer">get.5e.tools</a>. See the <code>README</code> or the <a href="https://wiki.5e.tools/index.php/5etools_Install_Guide" rel="noopener noreferrer">wiki</a> for help.</p>
+		<p><b>Is it free?</b> Yes! Additionally, you can download the source at <a href="https://get.5e.tools" rel="noopener noreferrer">get.5e.tools</a>. See the <a href="/README.md">README</a> or the <a href="https://wiki.5e.tools/index.php/5etools_Install_Guide" rel="noopener noreferrer">wiki</a> for help.</p>
 		<p><b>Can I contribute?</b> A copy of the source is available on <a href="https://github.com/5etools-mirror-1/5etools-mirror-1.github.io" rel="noopener noreferrer">GitHub</a>. Note that this is a secondary mirror, and so is not guaranteed to be up-to-date.</p>
 		<p><b>Browser and device support?</b> The latest desktop versions of Chrome and Firefox.</p>
 		<p><b>Where's my stuff?</b> There's no account system. Everything is stored in cookies. If you wipe those, or close your incognito window, it's gone forever. You can download your data for safekeeping via the Settings menu.</p>
@@ -486,6 +491,8 @@ Unearthed Arcana content can be accessed by cycling the &quot;All Sources&quot; 
 		<a id='unic-ccpa' onclick="window.__uspapi('openunic')" style='display:none;cursor:pointer;'>Do not sell my data</a>
 		<br>
 		<i>5etools&reg; is a Registered Trademark of The Norr Group Ltd. All rights reserved.</i>
+		<br>
+		Modified by <a target="_blank" href="https://ludvig.io/">Ludvig Alexander Brüchmann</a> &mdash; <a href="https://github.com/ludvigbruchmann/5etools-mirror-1.github.io" target="_blank">GitHub Fork</a>.
 	</p>
 </footer>
 <div class="cancer__footer-pad"></div>

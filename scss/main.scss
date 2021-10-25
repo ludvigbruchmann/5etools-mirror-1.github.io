@@ -143,3 +143,7 @@
   border: none;
   border-right: 1px solid rgba(119, 112, 112, 0.627);
 }
+
+a[target="_blank"]:after {
+  content: "↗";
+}
