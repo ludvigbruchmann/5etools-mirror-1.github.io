@@ -354,8 +354,8 @@ Shared UI components
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-family: "Times New Roman", serif;
-		font-variant: small-caps;
+		font-family: $font-two, serif;
+		font-variant: normal;
 		font-weight: 500;
 	}
 }

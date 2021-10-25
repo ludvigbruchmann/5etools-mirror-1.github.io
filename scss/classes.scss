@@ -285,8 +285,8 @@
 .cls-side__ {
 	&name {
 		font-size: 1.8em;
-		font-family: "Times New Roman", serif;
-		font-variant: small-caps;
+		font-family: $font-two, serif;
+		font-variant: normal;
 		font-weight: 500;
 	}
 
@@ -390,8 +390,8 @@
 	&msg-no-content {
 		height: 40px;
 		color: $rgb-name-red;
-		font-family: "Times New Roman", serif;
-		font-variant: small-caps;
+		font-family: $font-two, serif;
+		font-variant: normal;
 		font-weight: 500;
 		line-height: 2.3em;
 		text-align: center;
@@ -538,12 +538,12 @@
 	max-height: calc(100vh - 30px);
 	padding-right: 9px;
 	padding-left: 9px;
-	font-family: "Times New Roman", serif;
-	font-variant: small-caps;
+	font-family: $font-two, serif;
+	font-variant: normal;
 	font-weight: 500;
 
 	&:hover {
-		overflow-y: scroll;
+		overflow-y: auto;
 		padding-right: 0;
 	}
 

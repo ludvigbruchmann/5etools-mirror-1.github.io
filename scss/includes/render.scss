@@ -8,8 +8,8 @@ $rgb-inset-border: #656565;
 
 @mixin rd__h--large() {
 	color: $rgb-name-red;
-	font-family: "Times New Roman", serif;
-	font-variant: small-caps;
+	font-family: $font-two, serif;
+	font-variant: normal;
 	font-weight: 500;
 	display: flex;
 	justify-content: space-between;
@@ -276,7 +276,7 @@ $rgb-inset-border: #656565;
 		// inset headers
 		// statsBlockInset and statsBlockInsetReadaloud
 		&h--2-inset {
-			font-variant: small-caps;
+			font-variant: normal;
 			font-weight: bolder;
 			font-size: 1.1em;
 			display: flex;
@@ -286,7 +286,7 @@ $rgb-inset-border: #656565;
 
 		&h--2-flow-block {
 			display: block;
-			font-variant: small-caps;
+			font-variant: normal;
 			font-weight: bolder;
 			font-size: 1.1em;
 			text-align: center;
@@ -359,8 +359,8 @@ $rgb-inset-border: #656565;
 		&data-embed {
 			&-header {
 				cursor: pointer;
-				font-family: "Times New Roman", serif;
-				font-variant: small-caps;
+				font-family: $font-two, serif;
+				font-variant: normal;
 				text-transform: uppercase;
 				font-weight: bold;
 
@@ -406,7 +406,7 @@ $rgb-inset-border: #656565;
 
 			&--h1 {
 				font-size: 140%;
-				font-variant: small-caps;
+				font-variant: normal;
 			}
 
 			&--h2 {
@@ -479,7 +479,7 @@ $rgb-inset-border: #656565;
 		}
 
 		&stats-name-page {
-			font-family: "Convergence", Arial, sans-serif;
+			font-family: $font-one, Arial, sans-serif;
 			font-size: 12px;
 			color: $rgb-off-black;
 			font-weight: 100;
@@ -597,7 +597,7 @@ td > .rd__b:last-child {
 		&wrp-instructions {
 			.rd__h--3 {
 				font-style: initial;
-				font-variant: small-caps;
+				font-variant: normal;
 			}
 
 			.rd__b--3 > p,

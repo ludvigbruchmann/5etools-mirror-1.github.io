@@ -15,3 +15,130 @@
 @import "includes/filter-night";
 @import "includes/ui";
 @import "includes/ui-night";
+
+.night-mode body {
+  background: #000 !important;
+}
+
+.night-mode header {
+  background: #000 !important;
+  border-bottom: 1px solid rgba(85, 85, 85, 0.627451);
+}
+
+.page__header {
+  padding: 8px 15px 9px
+}
+
+.dm-screen {
+  padding: 8px;
+}
+
+.night-mode .dm-screen-panel {
+  border: 1px solid rgba(85, 85, 85, 0.627451);
+  background: #000;
+  border-radius: 3px;
+}
+
+.dm-screen-panel .panel-content-wrapper-inner{
+  padding: 8px;
+}
+
+.night-mode .rd__b-inset {
+  background: rgba(85, 85, 85, 0.3137255);
+}
+
+.rd__b-inset {
+  box-shadow: none;
+  border: 1px solid rgba(85, 85, 85, 0.627451);
+  border-radius: 3px;
+  padding: 12px;
+}
+
+.rd__h, h1, h2, h3 {
+  font-weight: 700;
+  border-bottom: none;
+}
+
+.rd__b:after {
+  content: "";
+  width: calc(100% + 24px);
+  height: 1px;
+  background: rgba(85, 85, 85, 0.627451);
+  margin-top: 1rem;
+  display: block;
+  position: relative;
+  left: -12px
+}
+
+.dropdown-menu {
+  border: 1px solid rgba(85, 85, 85, 0.627451);
+  border-top: none;
+  left: -1px;
+}
+
+.nav li.open>a, .nav li.open>a:focus, .nav li.open>a:hover {
+  border-bottom: none !important;
+}
+
+.page__nav {
+  padding: 0;
+  min-height: initial;
+  width: 100%;
+}
+
+.nav-pills>li+li {
+  margin-left: 0;
+}
+
+.nav-pills>li:last-of-type {
+  margin-right: 0;
+}
+
+.nav-pills>li>a, .page__nav .form-control.search.omni__input, .page__nav .btn.btn-default.omni__submit {
+  border-radius: 0;
+  border: none !important;
+  border-bottom: 1px solid rgba(85, 85, 85, 0.627451) !important;
+  min-height: 32px;
+}
+
+.nav-pills>li>a {
+  padding-top: 5px;
+  border-right: 1px solid rgba(85, 85, 85, 0.627451) !important;
+}
+
+.nav>li {
+  margin: 0 !important;
+}
+
+.night-mode .dropdown-menu .divider {
+  background-color: rgba(85, 85, 85, 0.627451);
+}
+
+.page__title {
+  font-size: 32px;
+}
+
+.dm-screen .sidemenu__toggle, body.is-fullscreen .dm-screen .sidemenu__toggle {
+  top: 32px;
+  height: 42px;
+  box-shadow: none;
+  left: -14px;
+  background-color: #000;
+  padding: 12px 6px 12px 0;
+  border: 1px solid rgba(119, 112, 112, 0.627);
+  border-radius: 3px;
+}
+
+.sidemenu__hotzone {
+  width: 4px;
+}
+
+.night-mode .sidemenu__burger {
+  background: #fff;
+  height: 2px
+}
+
+.night-mode .sidemenu {
+  border: none;
+  border-right: 1px solid rgba(119, 112, 112, 0.627);
+}

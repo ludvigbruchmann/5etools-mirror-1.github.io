@@ -51,7 +51,7 @@
 		box-shadow: initial;
 		width: 100%;
 		animation-duration: initial;
-		overflow-y: scroll;
+		overflow-y: auto;
 		height: 100%;
 		max-width: initial;
 		max-height: initial;
@@ -127,8 +127,8 @@
 		padding: 1px 0;
 		font-size: 12px;
 		display: none;
-		font-family: "Times New Roman", serif;
-		font-variant: small-caps;
+		font-family: $font-two, serif;
+		font-variant: normal;
 		text-transform: uppercase;
 		font-weight: bold;
 		flex-shrink: 0;

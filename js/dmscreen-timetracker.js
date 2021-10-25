@@ -785,8 +785,8 @@ class TimeTrackerRoot_Clock extends TimeTrackerComponent {
 		}, 1000);
 		this._$wrpPanel.data("onDestroy", () => clearInterval(this._ivTimer));
 
-		const $dispReadableDate = $(`<div class="small-caps"/>`);
-		const $dispReadableYear = $(`<div class="small-caps small text-muted mb-2"/>`);
+		const $dispReadableDate = $(`<div class="normal"/>`);
+		const $dispReadableYear = $(`<div class="normal small text-muted mb-2"/>`);
 		const $wrpMoons = $(`<div class="flex flex-wrap w-100 no-shrink flex-vh-center mb-3"/>`);
 
 		const $wrpDayNight = $(`<div class="flex w-100 no-shrink flex-h-center flex-v-baseline mt-2"/>`);
@@ -875,7 +875,7 @@ class TimeTrackerRoot_Clock extends TimeTrackerComponent {
 		const $iptMinutes = $getIpt("minutesPerHour", "numMinutes", "secsPerMinute");
 		const $iptSeconds = $getIpt("secondsPerMinute", "numSecs");
 
-		const $wrpDays = $(`<div class="small-caps text-center mb-1"/>`);
+		const $wrpDays = $(`<div class="normal text-center mb-1"/>`);
 		const $wrpHours = $$`<div class="flex flex-vh-center">${$iptHours}</div>`;
 		const $wrpMinutes = $$`<div class="flex flex-vh-center">${$iptMinutes}</div>`;
 		const $wrpSeconds = $$`<div class="flex flex-vh-center">${$iptSeconds}</div>`;
@@ -1391,11 +1391,11 @@ class TimeTrackerRoot_Clock_Weather extends TimeTrackerComponent {
 		hookEnvEffects();
 
 		$$`<div class="flex-col w-100 flex-vh-center">
-			<div class="flex-vh-center small mb-1"><span class="small-caps mr-2">Weather</span>${$btnRandomise}</div>
+			<div class="flex-vh-center small mb-1"><span class="normal mr-2">Weather</span>${$btnRandomise}</div>
 			<div class="mb-2">${$btnTemperature}${$btnPrecipitation}</div>
 
 			<div class="flex-col flex-vh-center">
-				<div class="small small-caps">Wind</div>
+				<div class="small normal">Wind</div>
 				<div class="mb-1">${$btnWindDirection}</div>
 				<div>${$btnWindSpeed}</div>
 			</div>
@@ -1724,8 +1724,8 @@ class TimeTrackerRoot_Calendar extends TimeTrackerComponent {
 		// cache info to avoid re-rendering the calendar every second
 		let lastRenderMeta = null;
 
-		const $dispDayReadableDate = $(`<div class="small-caps"/>`);
-		const $dispYear = $(`<div class="small-caps text-muted small"/>`);
+		const $dispDayReadableDate = $(`<div class="normal"/>`);
+		const $dispYear = $(`<div class="normal text-muted small"/>`);
 		const {$wrpDateControls, $iptYear, $iptMonth, $iptDay} = TimeTrackerRoot_Calendar.getDateControls(this._parent);
 
 		const $btnBrowseMode = ComponentUiUtil.$getBtnBool(
@@ -1995,7 +1995,7 @@ class TimeTrackerRoot_Calendar extends TimeTrackerComponent {
 		if (opts.hasColumnLabels) {
 			const days = parent.getAllDayInfos();
 			days.forEach((it, i) => {
-				$(`<div class="small text-muted small-caps text-center" title="${it.name.escapeQuotes()}">${it.name.slice(0, 2)}</div>`)
+				$(`<div class="small text-muted normal text-center" title="${it.name.escapeQuotes()}">${it.name.slice(0, 2)}</div>`)
 					.css({
 						"grid-column-start": `${i + gridOffsetX + 1}`,
 						"grid-column-end": `${i + gridOffsetX + 2}`,
@@ -2014,7 +2014,7 @@ class TimeTrackerRoot_Calendar extends TimeTrackerComponent {
 
 			if (xPos === 0 && opts.hasRowLabels && i < daysInMonth) {
 				const weekNum = Math.floor(monthStartDayOfYear / daysPerWeek) + yPos;
-				$(`<div class="small text-muted small-caps flex-vh-center" title="Week ${weekNum}">${weekNum}</div>`)
+				$(`<div class="small text-muted normal flex-vh-center" title="Week ${weekNum}">${weekNum}</div>`)
 					.css({
 						"grid-column-start": `${xPos + 1}`,
 						"grid-column-end": `${xPos + 2}`,

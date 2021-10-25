@@ -80,8 +80,8 @@ label {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 5px;
 	padding: 0 4px;
-	font-family: "Times New Roman", serif;
-	font-variant: small-caps;
+	font-family: $font-two, serif;
+	font-variant: normal;
 	color: white;
 	user-select: none;
 	background: #808080a0;
@@ -568,7 +568,7 @@ body.is-fullscreen .sidemenu__hotzone {
 	margin-bottom: 5px;
 	display: flex;
 	justify-content: space-between;
-	font-variant: small-caps;
+	font-variant: normal;
 	border-bottom: 1px solid $rgb-border-grey;
 	min-width: min-content;
 }
@@ -856,7 +856,7 @@ textarea.dm_init__pl_textarea {
 
 	&__ {
 		&rows {
-			overflow-y: scroll;
+			overflow-y: auto;
 		}
 
 		&ctrl {

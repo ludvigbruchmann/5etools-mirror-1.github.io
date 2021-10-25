@@ -34,6 +34,9 @@
 	}
 }
 
+$font-one: "neue-haas-grotesk-display", "Inter", "Roboto", Arial, sans-serif;
+$font-two: "neue-haas-grotesk-display", "Inter", "Roboto", Arial, sans-serif;
+
 $pct-darken-active: 10%;
 $pct-darken-border: 15%;
 $pct-darken-border--active: 20%;
@@ -43,103 +46,103 @@ $sz-y-header: 73px;
 
 $spacer: 1rem;
 
-$rgb-off-black: #333;
+$rgb-off-black: #212121;
 
-$rgb-active-blue--light: #7398b7;
-$rgb-active-blue: #337ab7;
-$rgb-active-blue--dark: #2a6496;
-$rgb-active-red--light: #8a4b4b;
-$rgb-active-red: #8a1a1b;
-$rgb-active-red--dark: #711617;
-$rgb-inactive-grey: #c3c3c3;
+$rgb-active-blue--light: #4FC3F7;
+$rgb-active-blue: #29B6F6;
+$rgb-active-blue--dark: #03A9F4;
+$rgb-active-red--light: #EF9A9A;
+$rgb-active-red: #EF5350;
+$rgb-active-red--dark: #F44336;
+$rgb-inactive-grey: #ECEFF1;
 
-$rgb-name-red: #822000;
-$rgb-name-red--night: #d29a38;
+$rgb-name-red: #F44336;
+$rgb-name-red--night: #607D8B;
 $rgb-name-alt--night: #c2c2c2;
-$rgb-bg-orange: #fdf1dc;
-$rgb-bg-highlight: yellow;
+$rgb-bg-orange: #FFE0B2;
+$rgb-bg-highlight: #FFC107;
 
 $rgb-link-blue: $rgb-active-blue;
-$rgb-link-blue--muted: #7096b7;
-$rgb-link-blue--night: #7db6e8;
-$rgb-link-blue--muted-night: #6e8eab;
+$rgb-link-blue--muted: #CFD8DC;
+$rgb-link-blue--night: #03A9F4;
+$rgb-link-blue--muted-night: #607D8B;
 
-$rgb-border-grey: #ccc;
-$rgb-border-grey--trans: #cccccca0;
-$rgb-border-grey--trans-muted: #ccc6;
-$rgb-border-grey--muted: #eee;
-$rgb-border-grey--list-row: #ddd;
-$rgb-border-grey--night: #555;
-$rgb-border-grey--trans-night: #555555a0;
-$rgb-border-grey--list-row-night: #444;
+$rgb-border-grey: #ECEFF1;
+$rgb-border-grey--trans: #CFD8DC;
+$rgb-border-grey--trans-muted: #B0BEC5;
+$rgb-border-grey--muted: #F5F5F5;
+$rgb-border-grey--list-row: #F5F5F5;
+$rgb-border-grey--night: #616161;
+$rgb-border-grey--trans-night: #616161;
+$rgb-border-grey--list-row-night: #424242;
 
-$rgb-modal-overlay-grey: #45454588;
+$rgb-modal-overlay-grey: #42424288;
 $rgb-shadow-grey: rgba(0, 0, 0, 0.175);
 $rgb-shadow-grey--dark: rgba(0, 0, 0, 0.475);
 
-$rgb-stripe-grey: #88888818;
-$rgb-stripe-grey--faint: #bbbbbb18;
+$rgb-stripe-grey: #75757518;
+$rgb-stripe-grey--faint: #BDBDBD18;
 $rgb-stripe-grey--night: #aaa4;
 
-$rgb-cb-grey: #666;
+$rgb-cb-grey: #616161;
 
-$rgb-bg: white;
-$rgb-bg--alt: whitesmoke;
+$rgb-bg: #FAFAFA;
+$rgb-bg--alt: #ECEFF1;
 
-$rgb-bg--night: #222;
-$rgb-bg--alt-night: #383838;
+$rgb-bg--night: #000;
+$rgb-bg--alt-night: #212121;
 
-$rgb-bg-highlight--night: #cc0;
-$rgb-font: #333;
-$rgb-font--muted: #777;
-$rgb-font--night: #bbb;
+$rgb-bg-highlight--night: #FFC107;
+$rgb-font: #212121;
+$rgb-font--muted: #424242;
+$rgb-font--night: #EEEEEE;
 
-$rgb-form-control-bg--night: #222;
+$rgb-form-control-bg--night: #000;
 
-$rgb-ctx-item-text-disabled: #777;
+$rgb-ctx-item-text-disabled: #757575;
 
-$rgb-alert-text-success: #3c763d;
-$rgb-alert-text-info: #31708f;
-$rgb-alert-text-warning: #8a6d3b;
-$rgb-alert-text-danger: #a94442;
+$rgb-alert-text-success: #4CAF50;
+$rgb-alert-text-info: #00BCD4;
+$rgb-alert-text-warning: #FFC107;
+$rgb-alert-text-danger: #F44336;
 
 $rgb-btn-default-active--night: #ffffff40;
 
-$rgb-btn-danger-bg-red: #d9534f;
-$rgb-btn-danger-bg-red--night: #7e3a38;
+$rgb-btn-danger-bg-red: #F44336;
+$rgb-btn-danger-bg-red--night: #F44336;
 
-$rgb-btn-danger-border-red: #ac2925;
+$rgb-btn-danger-border-red: #C62828;
 
 $rgb-btn-primary-blue: $rgb-active-blue;
-$rgb-btn-primary-blue--desaturated: #b8b8b8;
+$rgb-btn-primary-blue--desaturated: #B0BEC5;
 
-$rgb-class-variant: #8f903c;
-$rgb-class-ua: #827e00;
-$rgb-subclass: #337ab7;
-$rgb-subclass--stale: #7699b7;
-$rgb-subclass-ua: #1d965d;
-$rgb-subclass-ua--stale: #5f967c;
-$rgb-class-brew: #8c3b96;
+$rgb-class-variant: #FFC107;
+$rgb-class-ua: #FF9800;
+$rgb-subclass: #00BCD4;
+$rgb-subclass--stale: #607D8B;
+$rgb-subclass-ua: #009688;
+$rgb-subclass-ua--stale: #81C784;
+$rgb-class-brew: #9C27B0;
 
-$rgb-class-variant--night: #e6ab94;
-$rgb-class-ua--night: #a2ce42;
+$rgb-class-variant--night: #FFAB91;
+$rgb-class-ua--night: #CDDC39;
 $rgb-subclass--night: $rgb-subclass;
 $rgb-subclass--night-stale: $rgb-subclass--stale;
-$rgb-subclass-ua--night: #179e50;
-$rgb-subclass-ua--night-stale: #509e8a;
-$rgb-class-brew--night: #aa40b4;
+$rgb-subclass-ua--night: #4CAF50;
+$rgb-subclass-ua--night-stale: #009688;
+$rgb-class-brew--night: #9C27B0;
 
-$rgb-roll-min: #ff3100;
-$rgb-roll-max: #00b400;
+$rgb-roll-min: #F44336;
+$rgb-roll-max: #8BC34A;
 $rgb-roll-min--muted: desaturate($rgb-roll-min, 35%);
 $rgb-roll-max--muted: desaturate($rgb-roll-max, 35%);
 
 // Colors blended using https://www.w3schools.com/colors/colors_mixer.asp
-$rgb-btn-primary-blue--night: #2a4e6c; // #337ab7 blended with #222
-$rgb-btn-danger-red--night: #7e3a38; // #d9534f blended with #222
-$rgb-btn-warning-orange--night: #896838; // #f0ad4e blended with #222
-$rgb-btn-info-blue--night: #2a697c; // #31b0d5 blended with #222
-$rgb-btn-success-green--night: #427442; // #5cb85c blended with #222
+$rgb-btn-primary-blue--night: #2196F3; // #337ab7 blended with #222
+$rgb-btn-danger-red--night: #F44336; // #d9534f blended with #222
+$rgb-btn-warning-orange--night: #FF9800; // #f0ad4e blended with #222
+$rgb-btn-info-blue--night: #00BCD4; // #31b0d5 blended with #222
+$rgb-btn-success-green--night: #009688; // #5cb85c blended with #222
 
 /* Z-Indices */
 $z-token-image: 10;

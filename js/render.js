@@ -7311,7 +7311,7 @@ Renderer.recipe = {
 
 				<div class="rd-recipes__wrp-ingredients ${ptMakes || ptServes ? "mt-1" : ""}">${Renderer.get().render({entries: it._fullIngredients}, 0)}</div>
 
-				${it.noteCook ? `<div class="w-100 flex-col mt-4"><div class="flex-vh-center bold mb-1 small-caps">Cook's Notes</div><div class="italic">${Renderer.get().render({entries: it.noteCook})}</div></div>` : ""}
+				${it.noteCook ? `<div class="w-100 flex-col mt-4"><div class="flex-vh-center bold mb-1 normal">Cook's Notes</div><div class="italic">${Renderer.get().render({entries: it.noteCook})}</div></div>` : ""}
 			</div>
 
 			<div class="pl-2 flex-2 rd-recipes__wrp-instructions">
@@ -7322,12 +7322,12 @@ Renderer.recipe = {
 
 	_getMakesServesHtml (it) {
 		const ptMakes = it.makes ? `<div class="mb-2 flex-v-center">
-			<div class="bold small-caps mr-2">Makes</div>
+			<div class="bold normal mr-2">Makes</div>
 			<div>${it._scaleFactor ? `${it._scaleFactor}× ` : ""}${Renderer.get().render(it.makes || it.serves)}</div>
 		</div>` : null;
 
 		const ptServes = it.serves ? `<div class="mb-2 flex-v-center">
-			<div class="bold small-caps mr-2">Serves</div>
+			<div class="bold normal mr-2">Serves</div>
 			<div>${it.serves.min ?? it.serves.exact}${it.serves.min != null ? " to " : ""}${it.serves.max ?? ""}</div>
 		</div>` : null;
 

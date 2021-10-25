@@ -1360,7 +1360,7 @@ class MarkdownConverter {
 					// ### => l0 entries
 					case 3: this._coalesceHeaders_addBlock(buf, i, stack, 0, name); break;
 					// #### => l1 entries
-					// ##### => l1 entries (TODO this should be something else? Is a bold small-caps header)
+					// ##### => l1 entries (TODO this should be something else? Is a bold normal header)
 					case 4: this._coalesceHeaders_addBlock(buf, i, stack, 1, name); break;
 					case 5: this._coalesceHeaders_addBlock(buf, i, stack, 1, name); break;
 				}

@@ -111,7 +111,7 @@ class CounterRow extends CounterComponent {
 	render ($parent, parent) {
 		this._parent = parent;
 
-		const $iptName = ComponentUiUtil.$getIptStr(this, "name").addClass("mr-2 small-caps");
+		const $iptName = ComponentUiUtil.$getIptStr(this, "name").addClass("mr-2 normal");
 
 		const $iptCur = ComponentUiUtil.$getIptInt(this, "current", 0, {$ele: $(`<input class="form-control input-xs form-control--minimal text-center dm-cnt__ipt dm-cnt__ipt--cur bold">`)});
 		const $iptMax = ComponentUiUtil.$getIptInt(this, "max", 0, {$ele: $(`<input class="form-control input-xs form-control--minimal text-center dm-cnt__ipt dm-cnt__ipt--max mr-2 text-muted bold">`)});

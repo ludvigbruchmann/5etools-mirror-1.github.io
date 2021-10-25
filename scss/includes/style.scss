@@ -830,7 +830,7 @@ input[type=checkbox].sidemenu__row__label__cb {
 
 	&--stats {
 		@media (min-width: $width-screen-md) {
-			overflow-y: scroll;
+			overflow-y: auto;
 			margin-right: -9px;
 		}
 	}
@@ -938,8 +938,8 @@ input[type=checkbox].sidemenu__row__label__cb {
 .rnd-name {
 	position: relative;
 	font-size: 1.8em;
-	font-family: "Times New Roman", serif;
-	font-variant: small-caps;
+	font-family: $font-two, serif;
+	font-variant: normal;
 	font-weight: 500;
 	padding-left: 0.2em !important;
 
@@ -956,7 +956,7 @@ input[type=checkbox].sidemenu__row__label__cb {
 }
 
 .stats {
-	font-family: "Convergence", Arial, sans-serif;
+	font-family: $font-one, Arial, sans-serif;
 	width: 100%;
 	font-size: 12.6px;
 	table-layout: fixed;
@@ -1104,8 +1104,8 @@ div#lootoutput {
 
 	&stat-header-underline {
 		font-size: 1.6rem;
-		font-family: "Times New Roman", serif;
-		font-variant: small-caps;
+		font-family: $font-two, serif;
+		font-variant: normal;
 		border-bottom: 2px solid $rgb-name-red;
 		color: $rgb-name-red;
 		vertical-align: bottom !important;
@@ -1197,8 +1197,8 @@ div#lootoutput {
 	&token-footer {
 		background: $rgb-shadow-grey--dark;
 		color: white;
-		font-family: "Times New Roman", serif;
-		font-variant: small-caps;
+		font-family: $font-two, serif;
+		font-variant: normal;
 		font-size: 16px;
 		border-radius: 5px;
 		padding: 1px 5px;
@@ -1489,7 +1489,7 @@ img.token:hover {
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
-		font-variant: small-caps;
+		font-variant: normal;
 		border-bottom: 1px solid $rgb-border-grey;
 	}
 
@@ -2003,8 +2003,8 @@ tr.regionaleffect {
 
 .initial-message {
 	color: $rgb-name-red;
-	font-family: "Times New Roman", serif;
-	font-variant: small-caps;
+	font-family: $font-two, serif;
+	font-variant: normal;
 	font-weight: 500;
 	text-align: center;
 	line-height: 2.3em;
@@ -2149,8 +2149,8 @@ header p.lead {
 
 	&__ {
 		&spacer-name {
-			font-family: "Times New Roman", serif;
-			font-variant: small-caps;
+			font-family: $font-two, serif;
+			font-variant: normal;
 			text-transform: uppercase;
 			font-weight: bold;
 			padding: 0 5px;
@@ -3018,7 +3018,7 @@ th.border {
 
 	/* Bootstrap overrides */
 	.table-striped > tbody > tr:nth-of-type(odd) {
-		background-color: #444;
+		background-color: #4e4e4e80;
 	}
 
 	.alert-info {
@@ -3318,7 +3318,7 @@ th.border {
 	}
 
 	.bkmv {
-		background: #272727;
+		background: $rgb-bg--night;
 	}
 
 	.bkmv__spacer-name {
@@ -3348,7 +3348,7 @@ th.border {
 	}
 
 	::-webkit-scrollbar-thumb {
-		background: #475b6b;
+		background: rgba(85, 85, 85, 0.3137255);
 	}
 
 	/**** Search and filter bar ****/
@@ -3367,11 +3367,11 @@ th.border {
 	}
 
 	.rollbox {
-		background: #272727;
+		background: $rgb-bg--night;
 	}
 
 	.rollbox .ipt-roll {
-		background: #272727;
+		background: $rgb-bg--night;
 	}
 
 	.rollbox-min,
@@ -3527,7 +3527,7 @@ th.border {
 	}
 
 	.sidemenu__toggle {
-		background: #444;
+		background: #4e4e4e80;
 	}
 
 	.sidemenu__burger {
@@ -3544,7 +3544,7 @@ th.border {
 
 .night-mode--alt {
 	body {
-		background: #1c1c1c;
+		background: $rgb-bg--night;
 	}
 }
 /* Night Mode End */

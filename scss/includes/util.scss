@@ -16,8 +16,8 @@ input[type="radio"]:checked {
 }
 
 .dnd-font {
-	font-family: "Times New Roman", serif;
-	font-variant: small-caps;
+	font-family: $font-two, serif;
+	font-variant: normal;
 	font-weight: 500;
 }
 // endregion
@@ -94,8 +94,8 @@ i > i {
 	white-space: pre;
 }
 
-.small-caps {
-	font-variant: small-caps;
+.normal {
+	font-variant: normal;
 }
 
 .capitalise {
@@ -160,7 +160,7 @@ i > i {
 }
 
 .overflow-y-scroll {
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 .overflow-y-hidden {
